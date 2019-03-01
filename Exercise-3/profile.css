@@ -1,0 +1,25 @@
+body
+{
+    background-color:white;
+    background-size: 100%;
+}
+
+p
+{
+    background-color: lightcyan;
+    color: rebeccapurple;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+
+a
+{
+    background-color: aliceblue;
+    color: red;
+}
+
+a:hover
+{
+    background-color: antiquewhite;
+    color: blue;
+}
