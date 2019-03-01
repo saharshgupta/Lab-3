@@ -1,22 +1,23 @@
 <html>
     <body>
         <div>
-            <p id="para">
+            <script src="border.js"></script>
+            <p id="para" style="border-style: solid;">
                 This is a dummy paragraph.
             </p>
             <p>
             Border: <br>
-            Red(0-255): <input type="number" name="Red(0-255)"> <br>
-            Green(0-255): <input type="number" name="Green(0-255)"> <br>
-            Blue(0-255): <input type="number" name="Blue(0-255)" > <br>
-            Width(>0): <input type="number"> <br>
+            Red(0-255): <input type="number" id="RB" value="" max="255" min="0"> <br>
+            Green(0-255): <input type="number" id="GB" value="" max="255" min="0"> <br>
+            Blue(0-255): <input type="number" id="BB" value="" max="255" min="0"> <br>
+            Width(>0): <input type="number" id="BW" value="" min="0"> <br>
             <br>
             Background Color: <br>
-            Red(0-255): <input type="number" name="Red(0-2s55)"><br>
-            Green(0-255): <input type="number" name="Green(0-255)"><br>
-            Blue(0-255): <input type="number" name="Blue(0-255)" > <br>
+            Red(0-255): <input type="number" id="RBC" value="" max="255" min="0"><br>
+            Green(0-255): <input type="number" id="GBC" value="" max="255" min="0"><br>
+            Blue(0-255): <input type="number" id="BBC" value="" max="255" min="0"> <br>
             <br>
-            <input type="button" value="Submit">
+            <input type="button" value="Submit" onclick="border()">
             </p>
         </div>
     </body>
